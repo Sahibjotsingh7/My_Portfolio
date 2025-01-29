@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "src": "./img/techpro.png",
+    "title": "TechSchool",
+    "description": "A comprehensive web-based e-learning platform developed using the MERN Stack. It features video tutorials with  review & rating system,  practice quizzes,  code editor, downloadable  notes/cheatsheets and a chatbot for user support.",
+    "link": "View In Github",
+    "path": "https://github.com/Sahibjotsingh7/TechSchool"
+  },
+  {
+    "id": "2",
+    "src": "./img/spoticlonepro.png",
+    "title": "Spotify Clone",
+    "description": "A visually appealing Spotify clone designed using HTML, CSS, and JavaScript. It delivers a seamless music experience with an optimized, responsive, and modern user interface with intactive music-bar and songs of a perticuler singer. ",
+    "link": "View In Github",
+    "path": "https://github.com/Sahibjotsingh7/Spotify-Clone-"
+  },
+  {
+    "id": "3",
+    "src": "./img/fitpro.png",
+    "title": "FitClub",
+    "description": "A React-based frontend website created to establish a strong online presence for gyms. It effectively showcases services and enables seamless interaction with potential customers.",
+    "link": "View In Github",
+    "path": "https://github.com/Sahibjotsingh7/The-Fit-Club"
+  }
+]
