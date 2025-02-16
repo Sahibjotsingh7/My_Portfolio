@@ -4,6 +4,7 @@ import { SiLeetcode } from "react-icons/si";
 import { IoGlobeOutline } from "react-icons/io5";
 import { FaFileDownload } from "react-icons/fa";
 
+
 export default function HeroSection() {
   return (
     <section id="heroSection" className="hero--section">
@@ -86,9 +87,9 @@ export default function HeroSection() {
     </div>
       </div>
 
-      {/*<div className="hero--section--img">
-        <img src="https://img.freepik.com/free-vector/abstract-orange-wavy-shapes_1035-8650.jpg" alt="Hero Section" />
-      </div>*/}
+      <div className="hero--section--img">
+        <img src="../img/my_image.jpg" alt="Hero Section" />
+      </div>
     </section>
   );
 }

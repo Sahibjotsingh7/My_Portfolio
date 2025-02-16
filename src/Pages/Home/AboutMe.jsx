@@ -30,9 +30,12 @@ export default function AboutMe() {
            <FaGraduationCap size={100} style={{}}/>
          
           <h1  style={{marginBottom:"10px"}}>Education</h1>
-          <span style={{fontSize:"1rem" , color:"green"}}>2022 - Present</span>
+          <span style={{fontSize:"1rem" , color:"green"}}>2022 - 2026</span>
           <h2>Bachlor's of  Computer Science Engineering</h2>
-          <p className="about--section--description">Chitkara University, Punjab, Rajpura City</p>
+          <p className="about--section--description" style={{marginBottom:"20px"}}>Chitkara University, Punjab, Rajpura City</p>
+          <span style={{fontSize:"1rem" , color:"green"}}>2021 - 2022</span>
+          <h2>12<sup>th</sup> Non-Medical</h2>
+          <p className="about--section--description">BZSFS Sen Sec Public School, FGS</p>
         </div>
       </div>
 

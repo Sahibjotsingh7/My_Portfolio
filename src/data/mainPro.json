@@ -3,24 +3,51 @@
     "id": "1",
     "src": "./img/techpro.png",
     "title": "TechSchool",
-    "description": "A comprehensive web-based e-learning platform developed using the MERN Stack. It features video tutorials with  review & rating system,  practice quizzes,  code editor, downloadable  notes/cheatsheets and a chatbot for user support.",
-    "link": "View In Github",
+    "description": "A comprehensive web-based e-learning platform developed using the MERN Stack. It features video tutorials with a review & rating system, practice quizzes, a code editor, downloadable notes/cheatsheets, and a chatbot for user support.",
+    "link": "View on GitHub",
     "path": "https://github.com/Sahibjotsingh7/TechSchool"
+  },
+  {
+    "id": "5",
+    "src": "./img/digitalmenu.png",
+    "title": "Digital Menu",
+    "description": "A dynamic digital menu platform built with the MERN stack for restaurants, hotels, and cafes. It offers a categorized item listing, advanced filtering based on food type, and a fully functional admin panel with CRUD operations for seamless menu management.",
+    "link": "View on netlify",
+    "path": "https://newdigitalmenu.netlify.app/"
+  },
+  {
+    "id": "6",
+    "src": "./img/newWeb.png",
+    "title": "News Website",
+    "description": "A full-stack news website powered by the MERN stack, integrated with a News API. It delivers real-time news updates across various categories, including general, entertainment, science, sports, and politics, with an infinite scrolling feature for seamless browsing.",
+    "link": "View on GitHub",
+    "path": "https://github.com/Sahibjotsingh7/News-Website"
+  },
+  {
+    "id": "4",
+    "src": "./img/weatherapp.png",
+    "title": "Weather App",
+    "description": "A real-time weather application developed using React.js and the OpenWeather API. Users can search for any city to view detailed weather metrics, including temperature, cloudiness, humidity, wind speed, and visibility, in an elegant and user-friendly interface.",
+    "link": "View on netlify",
+    "path": "https://weatherbysahib.netlify.app/"
+  },
+  
+  {
+    "id": "3",
+    "src": "./img/fitpro.png",
+    "title": "FitClub",
+    "description": "A React-based frontend website built to enhance the online presence of gyms. It effectively showcases services, enables user engagement, and provides an intuitive interface for potential customers.",
+    "link": "View on GitHub",
+    "path": "https://github.com/Sahibjotsingh7/The-Fit-Club"
   },
   {
     "id": "2",
     "src": "./img/spoticlonepro.png",
     "title": "Spotify Clone",
-    "description": "A visually appealing Spotify clone designed using HTML, CSS, and JavaScript. It delivers a seamless music experience with an optimized, responsive, and modern user interface with intactive music-bar and songs of a perticuler singer. ",
-    "link": "View In Github",
+    "description": "A visually appealing Spotify clone designed using HTML, CSS, and JavaScript. It delivers a seamless music experience with an optimized, responsive, and modern user interface, featuring an interactive music bar and categorized songs by artist.",
+    "link": "View on GitHub",
     "path": "https://github.com/Sahibjotsingh7/Spotify-Clone-"
-  },
-  {
-    "id": "3",
-    "src": "./img/fitpro.png",
-    "title": "FitClub",
-    "description": "A React-based frontend website created to establish a strong online presence for gyms. It effectively showcases services and enables seamless interaction with potential customers.",
-    "link": "View In Github",
-    "path": "https://github.com/Sahibjotsingh7/The-Fit-Club"
   }
+  
+  
 ]

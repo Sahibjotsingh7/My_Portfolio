@@ -2,15 +2,30 @@ import React from "react";
 import { FaJs, FaJava, FaHtml5, FaCss3Alt, FaNodeJs, FaReact, FaDatabase, FaGithub } from "react-icons/fa";
 import { SiMongodb, SiMysql, SiGit } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
+import { FaPython } from "react-icons/fa";
+
+import { BiLogoCPlusPlus } from "react-icons/bi";
+
+import { FaLinux } from "react-icons/fa";
+
+import { FaNetworkWired } from "react-icons/fa";
+
+import { FaAws } from "react-icons/fa";
+
+import { MdOutlineDataObject } from "react-icons/md";
+
+
+import { RiTailwindCssFill } from "react-icons/ri";
+<RiTailwindCssFill />
 const SkillsSection = () => {
   const skills = [
     {
       category: "Programming Languages",
       items: [
         { name: "JavaScript", icon: <FaJs />, color: "#F7DF1E" },
-        { name: "Java", icon: <FaJava />, color: "#007396" },
-        { name: "HTML", icon: <FaHtml5 />, color: "#E34F26" },
-        { name: "CSS", icon: <FaCss3Alt />, color: "#1572B6" },
+        { name: "Java", icon: <FaJava />, color: "red" },
+        {name:"C/C++" , icon : <BiLogoCPlusPlus/> , color:"blue"},
+        { name: "Python", icon: <FaPython />, color: "greenyellow" },
       ],
     },
     {
@@ -28,21 +43,23 @@ const SkillsSection = () => {
         { name: "Git", icon: <SiGit />, color: "#F05032" },
         { name: "GitHub", icon: <FaGithub />, color: "#181717" },
         { name: "VS Code", icon: <VscVscode />, color: "#007ACC" },
-      ],
-    },
-    {
-      category: "Databases",
-      items: [
-        { name: "MySQL", icon: <SiMysql />, color: "#4479A1" },
+        { name: " EC2", icon: <FaAws />, color: "gray" },
         { name: "MongoDB", icon: <SiMongodb />, color: "#47A248" },
       ],
     },
+    
     {
-      category: "Course Work",
+      category: "Other Course Work",
       items: [
-        { name: "OOP", icon: <FaJs />, color: "#FFD700" },
+        { name: "Computer Networks", icon: <FaNetworkWired />, color: "black" },
+        { name: "Operating System", icon: <FaReact />, color: "#61DAFB" },
+        { name: "Linux", icon: <FaLinux />, color: "#4479A1" },
+        { name: "OOP", icon: <MdOutlineDataObject />, color: "orange" },
         { name: "DBMS", icon: <FaDatabase />, color: "#4DB33D" },
-        { name: "System Design", icon: <FaReact />, color: "#61DAFB" },
+        { name: "HTML", icon: <FaHtml5 />, color: "red" },
+        { name: "CSS", icon: <FaCss3Alt />, color: "blue" },
+        { name: "SQL", icon: <SiMysql />, color: "#4479A1" },
+        { name: "Tailwind", icon: <RiTailwindCssFill/>, color: "pink" },
       ],
     },
   ];

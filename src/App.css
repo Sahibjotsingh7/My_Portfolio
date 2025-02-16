@@ -201,10 +201,9 @@ h2 {
 }
 
 .hero--section--img > img {
-  width: 10%;
-  height: 10%;
-  border: solid linear-gradient() 10px;
-  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+   border-radius: 50%;
 }
 .button-container {
   display: flex;
@@ -336,12 +335,27 @@ h2 {
   gap: 21.3px;
 }
 .portfolio--section--container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Ensures 3 cards per row */
   align-items: center;
   justify-content: center;
   gap: 42.6px;
   width: 100%;
 }
+
+/* Responsive Design for smaller screens */
+@media (max-width: 1024px) {
+  .portfolio--section--container {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio--section--container {
+    grid-template-columns: repeat(1, 1fr); /* 1 card per row on small screens */
+  }
+}
+
 .portfolio--section--img {
   border-radius: 5px ;
   width: 100%;
@@ -622,7 +636,7 @@ h2 {
   }
   .hero--section {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 70px 20px;
     text-align: center;
     margin-top: 50px;
